@@ -1,3 +1,5 @@
+install pip
+
 pip install requests
 
 import requests
