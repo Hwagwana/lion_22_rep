@@ -1,0 +1,112 @@
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+h2 {
+  border-bottom: 1px solid #EBEBEB;
+  color: #EBEBEB;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 6px;
+}
+
+footer {
+  color: #8A8A8A;
+  background-color: #1E1E1E;
+  height: 80px;
+  text-align: center;
+  padding-top:40px;
+}
+
+.mainbox {
+  width: 820px;
+  padding: 20px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.topbox {
+  text-align: right;
+  margin: 16px;
+}
+
+
+.subtop {
+  color: #848484;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.alert-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(255, 198, 198);;
+  padding: 16px;
+  display: none;
+}
+
+
+#cancel {
+  display: none;
+}
+
+.middlebox {
+  margin: 16px;
+}
+
+.abme {
+  color: #9C9C9C;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: -8px;
+}
+
+.middle-sub {
+  margin-top: -16px;
+  font-size: 11px;
+  color: #9C9C9C;
+  margin-bottom: 40px;
+}
+
+.ms-name {
+  font-size:14px;
+  font-weight: bold;
+  float: left;
+  color: #424242;
+}
+
+.ms-year {
+  font-size:14px;
+  font-weight: bold;
+  float: right;
+  color: #424242;
+}
+
+.ms-wrap {
+  overflow: hidden;
+  margin-bottom: -6px;
+}
+
+.ms-sub {
+  padding-left: 16px;
+}
+
+.sns {
+  text-align: right;
+}
+
+.sns-img {
+  width: 24px;
+  height: 24px;
+}
