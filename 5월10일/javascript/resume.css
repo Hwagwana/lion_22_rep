@@ -42,23 +42,25 @@ footer {
   font-size: 18px;
 }
 
-.alert-box {
-  display: flex;
-  justify-content: space-between;
-}
-
 .alert {
   color: red;
   text-align: center;
   font-weight: bold;
-  background-color: rgb(255, 198, 198);;
-  padding: 16px;
+  padding-right: 16px;
   display: none;
 }
 
-
 #cancel {
   display: none;
+  height: 25px;
+}
+
+.alert-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 198, 198);
 }
 
 .middlebox {
