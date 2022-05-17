@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="1_main.css">
+</head>
+<body>
+    <button onclick="openClose('block','아이디입력하셈')">버튼1</button>
+    <button onclick="openClose('block','비번입력하셈')">버튼2</button>
+
+    <div class="alert-box" id="alert">
+        <p id="alert-title">Alert 박스</p>
+        <button id="close">X</button>
+    </div>
+
+    <script>
+        function openClose(oc, name){
+            document.getElementById('alert').style.display = oc;
+            document.getElementById('alert-title').innerHTML = name;
+        }
+
+        document.getElementById("close").addEventListener('click',function(){
+            document.getElementById('alert').style.display = 'none'
+        })
+    </script>
+</body>
+</html>
